@@ -57,12 +57,12 @@ class AuthTest extends TestCase
     public function testUserCanLoginUsingUsernameAndPassword()
     {
         $auth = new Auth();
-        
+
         $user = new User();
         $user->username = "Mohammed S Shurrab";
         $user->password = "TDD!@#$%^&*(";
-        
-        $auth->login($user);
+
+        $this->assertEquals(true,$auth->login($user));
     }
 }
 ```
