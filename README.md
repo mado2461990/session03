@@ -85,4 +85,4 @@ the first line return us back to the main project folder, then the second inform
 
 ## Step by Step Screencast
 
-I will make my best to record a step by step screencast to develop the code that satisfied this test using TDD, currently you can find the complete project code in this repo.
+You can watch this screencast for step by step [TDD sample development](https://www.youtube.com/watch?v=vFr0PWXrf4U)
